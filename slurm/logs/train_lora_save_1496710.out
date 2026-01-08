@@ -1,0 +1,21 @@
+========================================
+Job ID: 1496710
+Job Name: train_lora_save
+Node: gx07
+Started at: Mon Dec 22 08:20:54 PM CET 2025
+========================================
+
+Stage 1: Train per-task LoRA and save CLS samples
+
+Using device: cuda
+
+============================================================
+Experience 0: Classes [96, 98, 42, 78, 46, 16, 24, 60, 62, 95]
+============================================================
+  Epoch 1: Loss = 0.5228, Acc = 85.64%
+  Epoch 2: Loss = 0.1123, Acc = 96.04%
+  Epoch 3: Loss = 0.0878, Acc = 96.86%
+  Epoch 4: Loss = 0.0704, Acc = 97.52%
+  Epoch 5: Loss = 0.0564, Acc = 97.98%
+  Epoch 6: Loss = 0.0496, Acc = 98.16%
+  Epoch 7: Loss = 0.0473, Acc = 98.16%

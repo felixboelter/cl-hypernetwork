@@ -1,0 +1,23 @@
+========================================
+Job ID: 1496715
+Job Name: baseline_vit_joint
+Node: gx07
+Started at: Mon Dec 22 08:39:45 PM CET 2025
+========================================
+
+Baseline: ViT trained on union of Split-CIFAR-100 tasks
+
+Using device: cuda
+  Epoch 1: Loss = 0.9993, Acc = 73.34%
+  Epoch 2: Loss = 0.4332, Acc = 86.78%
+  Epoch 3: Loss = 0.3322, Acc = 89.58%
+  Epoch 4: Loss = 0.2647, Acc = 91.40%
+  Epoch 5: Loss = 0.2200, Acc = 93.08%
+  Epoch 6: Loss = 0.1909, Acc = 93.93%
+  Epoch 7: Loss = 0.1675, Acc = 94.70%
+  Epoch 8: Loss = 0.1573, Acc = 94.95%
+  Epoch 9: Loss = 0.1373, Acc = 95.66%
+  Epoch 10: Loss = 0.1259, Acc = 95.92%
+  Epoch 11: Loss = 0.1187, Acc = 96.23%
+  Epoch 12: Loss = 0.1191, Acc = 96.32%
+  Epoch 13: Loss = 0.1047, Acc = 96.69%

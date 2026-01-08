@@ -1,0 +1,165 @@
+========================================
+Job ID: 1496711
+Job Name: train_lora_save
+Node: gx07
+Started at: Mon Dec 22 08:23:37 PM CET 2025
+========================================
+
+Stage 1: Train per-task LoRA and save CLS samples
+
+Using device: cuda
+
+============================================================
+Experience 0: Classes [96, 98, 42, 78, 46, 16, 24, 60, 62, 95]
+============================================================
+  Epoch 1: Loss = 0.5228, Acc = 85.64%
+  Epoch 2: Loss = 0.1123, Acc = 96.04%
+  Epoch 3: Loss = 0.0878, Acc = 96.86%
+  Epoch 4: Loss = 0.0704, Acc = 97.52%
+  Epoch 5: Loss = 0.0564, Acc = 97.98%
+  Epoch 6: Loss = 0.0496, Acc = 98.16%
+  Epoch 7: Loss = 0.0473, Acc = 98.16%
+  Epoch 8: Loss = 0.0399, Acc = 98.48%
+  Epoch 9: Loss = 0.0347, Acc = 98.66%
+  Epoch 10: Loss = 0.0333, Acc = 98.58%
+Saved results/lora/task_0.pt
+
+============================================================
+Experience 1: Classes [97, 99, 68, 70, 71, 10, 11, 13, 19, 52]
+============================================================
+  Epoch 1: Loss = 1.4240, Acc = 80.72%
+  Epoch 2: Loss = 0.1097, Acc = 96.80%
+  Epoch 3: Loss = 0.0714, Acc = 97.96%
+  Epoch 4: Loss = 0.0563, Acc = 98.30%
+  Epoch 5: Loss = 0.0384, Acc = 98.92%
+  Epoch 6: Loss = 0.0367, Acc = 98.78%
+  Epoch 7: Loss = 0.0242, Acc = 99.42%
+  Epoch 8: Loss = 0.0213, Acc = 99.48%
+  Epoch 9: Loss = 0.0171, Acc = 99.54%
+  Epoch 10: Loss = 0.0124, Acc = 99.74%
+Saved results/lora/task_1.pt
+
+============================================================
+Experience 2: Classes [5, 38, 40, 9, 43, 18, 82, 83, 86, 89]
+============================================================
+  Epoch 1: Loss = 2.2399, Acc = 75.80%
+  Epoch 2: Loss = 0.1399, Acc = 95.72%
+  Epoch 3: Loss = 0.1044, Acc = 96.82%
+  Epoch 4: Loss = 0.0876, Acc = 97.12%
+  Epoch 5: Loss = 0.0738, Acc = 97.78%
+  Epoch 6: Loss = 0.0643, Acc = 97.98%
+  Epoch 7: Loss = 0.0576, Acc = 98.32%
+  Epoch 8: Loss = 0.0476, Acc = 98.72%
+  Epoch 9: Loss = 0.0448, Acc = 98.72%
+  Epoch 10: Loss = 0.0460, Acc = 98.50%
+Saved results/lora/task_2.pt
+
+============================================================
+Experience 3: Classes [32, 1, 67, 73, 75, 79, 50, 59, 93, 94]
+============================================================
+  Epoch 1: Loss = 2.2334, Acc = 70.60%
+  Epoch 2: Loss = 0.2961, Acc = 90.34%
+  Epoch 3: Loss = 0.2338, Acc = 92.16%
+  Epoch 4: Loss = 0.2061, Acc = 93.12%
+  Epoch 5: Loss = 0.1896, Acc = 93.98%
+  Epoch 6: Loss = 0.1756, Acc = 94.04%
+  Epoch 7: Loss = 0.1592, Acc = 94.88%
+  Epoch 8: Loss = 0.1367, Acc = 95.52%
+  Epoch 9: Loss = 0.1265, Acc = 95.68%
+  Epoch 10: Loss = 0.1079, Acc = 96.44%
+Saved results/lora/task_3.pt
+
+============================================================
+Experience 4: Classes [66, 3, 4, 45, 51, 22, 87, 58, 61, 63]
+============================================================
+  Epoch 1: Loss = 2.6279, Acc = 70.56%
+  Epoch 2: Loss = 0.2719, Acc = 91.28%
+  Epoch 3: Loss = 0.2219, Acc = 92.70%
+  Epoch 4: Loss = 0.1901, Acc = 93.64%
+  Epoch 5: Loss = 0.1722, Acc = 94.34%
+  Epoch 6: Loss = 0.1554, Acc = 94.80%
+  Epoch 7: Loss = 0.1462, Acc = 95.20%
+  Epoch 8: Loss = 0.1322, Acc = 95.66%
+  Epoch 9: Loss = 0.1258, Acc = 95.78%
+  Epoch 10: Loss = 0.1108, Acc = 96.20%
+Saved results/lora/task_4.pt
+
+============================================================
+Experience 5: Classes [33, 35, 37, 6, 74, 12, 44, 48, 20, 21]
+============================================================
+  Epoch 1: Loss = 2.6089, Acc = 73.28%
+  Epoch 2: Loss = 0.2016, Acc = 93.34%
+  Epoch 3: Loss = 0.1617, Acc = 94.80%
+  Epoch 4: Loss = 0.1381, Acc = 95.66%
+  Epoch 5: Loss = 0.1170, Acc = 96.48%
+  Epoch 6: Loss = 0.1029, Acc = 96.82%
+  Epoch 7: Loss = 0.0904, Acc = 97.46%
+  Epoch 8: Loss = 0.0803, Acc = 97.54%
+  Epoch 9: Loss = 0.0783, Acc = 97.60%
+  Epoch 10: Loss = 0.0689, Acc = 97.72%
+Saved results/lora/task_5.pt
+
+============================================================
+Experience 6: Classes [65, 69, 7, 15, 81, 85, 88, 56, 27, 31]
+============================================================
+  Epoch 1: Loss = 2.6441, Acc = 74.74%
+  Epoch 2: Loss = 0.1681, Acc = 95.26%
+  Epoch 3: Loss = 0.1336, Acc = 96.24%
+  Epoch 4: Loss = 0.1101, Acc = 96.84%
+  Epoch 5: Loss = 0.0891, Acc = 97.54%
+  Epoch 6: Loss = 0.0802, Acc = 97.80%
+  Epoch 7: Loss = 0.0849, Acc = 97.84%
+  Epoch 8: Loss = 0.0722, Acc = 97.82%
+  Epoch 9: Loss = 0.0628, Acc = 98.16%
+  Epoch 10: Loss = 0.0535, Acc = 98.42%
+Saved results/lora/task_6.pt
+
+============================================================
+Experience 7: Classes [34, 36, 72, 41, 47, 80, 17, 84, 57, 29]
+============================================================
+  Epoch 1: Loss = 2.4079, Acc = 74.92%
+  Epoch 2: Loss = 0.1695, Acc = 95.28%
+  Epoch 3: Loss = 0.1274, Acc = 96.00%
+  Epoch 4: Loss = 0.1123, Acc = 96.86%
+  Epoch 5: Loss = 0.0859, Acc = 97.42%
+  Epoch 6: Loss = 0.0763, Acc = 97.92%
+  Epoch 7: Loss = 0.0652, Acc = 97.96%
+  Epoch 8: Loss = 0.0656, Acc = 97.98%
+  Epoch 9: Loss = 0.0600, Acc = 98.20%
+  Epoch 10: Loss = 0.0507, Acc = 98.40%
+Saved results/lora/task_7.pt
+
+============================================================
+Experience 8: Classes [2, 90, 8, 76, 53, 54, 23, 26, 91, 30]
+============================================================
+  Epoch 1: Loss = 2.6297, Acc = 74.98%
+  Epoch 2: Loss = 0.1506, Acc = 95.92%
+  Epoch 3: Loss = 0.1204, Acc = 96.50%
+  Epoch 4: Loss = 0.0905, Acc = 97.32%
+  Epoch 5: Loss = 0.0726, Acc = 97.98%
+  Epoch 6: Loss = 0.0650, Acc = 98.10%
+  Epoch 7: Loss = 0.0610, Acc = 98.20%
+  Epoch 8: Loss = 0.0530, Acc = 98.38%
+  Epoch 9: Loss = 0.0460, Acc = 98.76%
+  Epoch 10: Loss = 0.0411, Acc = 98.86%
+Saved results/lora/task_8.pt
+
+============================================================
+Experience 9: Classes [0, 64, 39, 77, 14, 92, 49, 55, 25, 28]
+============================================================
+  Epoch 1: Loss = 2.8087, Acc = 73.62%
+  Epoch 2: Loss = 0.1678, Acc = 94.68%
+  Epoch 3: Loss = 0.1332, Acc = 95.76%
+  Epoch 4: Loss = 0.1042, Acc = 96.78%
+  Epoch 5: Loss = 0.0841, Acc = 97.64%
+  Epoch 6: Loss = 0.0749, Acc = 97.96%
+  Epoch 7: Loss = 0.0676, Acc = 98.00%
+  Epoch 8: Loss = 0.0571, Acc = 98.34%
+  Epoch 9: Loss = 0.0508, Acc = 98.44%
+  Epoch 10: Loss = 0.0523, Acc = 98.70%
+Saved results/lora/task_9.pt
+
+========================================
+Finished at: Mon Dec 22 08:33:04 PM CET 2025
+Exit code: 0
+========================================

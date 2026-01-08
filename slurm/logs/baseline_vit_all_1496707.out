@@ -1,0 +1,39 @@
+========================================
+Job ID: 1496707
+Job Name: baseline_vit_all
+Node: gx07
+Started at: Mon Dec 22 08:06:50 PM CET 2025
+========================================
+
+Baseline: ViT trained on all 100 classes
+
+Using device: cuda
+  Epoch 1: Loss = 0.8334, Acc = 76.81%
+  Epoch 2: Loss = 0.3796, Acc = 88.38%
+  Epoch 3: Loss = 0.2700, Acc = 91.55%
+  Epoch 4: Loss = 0.2149, Acc = 93.32%
+  Epoch 5: Loss = 0.1743, Acc = 94.46%
+  Epoch 6: Loss = 0.1568, Acc = 95.06%
+  Epoch 7: Loss = 0.1366, Acc = 95.71%
+  Epoch 8: Loss = 0.1200, Acc = 96.17%
+  Epoch 9: Loss = 0.1152, Acc = 96.39%
+  Epoch 10: Loss = 0.1056, Acc = 96.60%
+
+Overall Test Accuracy: 82.48%
+
+Per-task Accuracy (Split-CIFAR-100):
+  Task 0: 60.90%
+  Task 1: 63.20%
+  Task 2: 63.10%
+  Task 3: 67.40%
+  Task 4: 54.70%
+  Task 5: 57.20%
+  Task 6: 64.40%
+  Task 7: 54.50%
+  Task 8: 62.70%
+  Task 9: 58.80%
+
+========================================
+Finished at: Mon Dec 22 08:29:42 PM CET 2025
+Exit code: 1
+========================================

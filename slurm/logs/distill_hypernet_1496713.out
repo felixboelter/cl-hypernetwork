@@ -1,0 +1,36 @@
+========================================
+Job ID: 1496713
+Job Name: distill_hypernet
+Node: gx07
+Started at: Mon Dec 22 08:36:17 PM CET 2025
+========================================
+
+Stage 2: Distill hypernetwork from saved LoRA weights
+
+Using device: cuda
+  Epoch 1: Distill Loss = 0.004578
+  Epoch 2: Distill Loss = 0.001199
+  Epoch 3: Distill Loss = 0.001172
+  Epoch 4: Distill Loss = 0.001172
+  Epoch 5: Distill Loss = 0.001171
+  Epoch 6: Distill Loss = 0.001171
+  Epoch 7: Distill Loss = 0.001171
+  Epoch 8: Distill Loss = 0.001172
+  Epoch 9: Distill Loss = 0.001172
+  Epoch 10: Distill Loss = 0.001172
+  Epoch 11: Distill Loss = 0.001171
+  Epoch 12: Distill Loss = 0.001172
+  Epoch 13: Distill Loss = 0.001172
+  Epoch 14: Distill Loss = 0.001172
+  Epoch 15: Distill Loss = 0.001172
+  Epoch 16: Distill Loss = 0.001172
+  Epoch 17: Distill Loss = 0.001172
+  Epoch 18: Distill Loss = 0.001172
+  Epoch 19: Distill Loss = 0.001172
+  Epoch 20: Distill Loss = 0.001172
+Saved hypernet to results/hypernet.pt
+
+========================================
+Finished at: Mon Dec 22 08:37:16 PM CET 2025
+Exit code: 1
+========================================

@@ -1,0 +1,308 @@
+========================================
+Job ID: 1496705
+Job Name: hyper_vit_cifar100
+Node: gx07
+Started at: Mon Dec 22 07:36:30 PM CET 2025
+========================================
+
+Experiment: Hypernetwork-conditioned QKV (input-conditioned)
+
+Using device: cuda
+
+============================================================
+Experience 0: Classes [96, 98, 42, 78, 46, 16, 24, 60, 62, 95]
+============================================================
+  Epoch 1: Loss = 0.3232, Acc = 91.14%
+  Epoch 2: Loss = 0.1470, Acc = 95.36%
+  Epoch 3: Loss = 0.1022, Acc = 96.56%
+  Epoch 4: Loss = 0.0825, Acc = 97.40%
+  Epoch 5: Loss = 0.0592, Acc = 97.74%
+  Epoch 6: Loss = 0.0710, Acc = 97.40%
+  Epoch 7: Loss = 0.0874, Acc = 97.38%
+  Epoch 8: Loss = 0.0570, Acc = 98.00%
+  Epoch 9: Loss = 0.0527, Acc = 98.48%
+  Epoch 10: Loss = 0.0706, Acc = 97.92%
+
+Evaluating on all tasks...
+
+Results after task 0:
+  Task 0: 96.40%
+
+Metrics:
+  Average Accuracy:  96.40%
+  Learning Accuracy: 96.40%
+
+============================================================
+Experience 1: Classes [97, 99, 68, 70, 71, 10, 11, 13, 19, 52]
+============================================================
+  Epoch 1: Loss = 1.2860, Acc = 88.48%
+  Epoch 2: Loss = 0.4763, Acc = 96.12%
+  Epoch 3: Loss = 0.1725, Acc = 97.74%
+  Epoch 4: Loss = 0.1052, Acc = 98.44%
+  Epoch 5: Loss = 0.1091, Acc = 98.38%
+  Epoch 6: Loss = 0.0667, Acc = 98.98%
+  Epoch 7: Loss = 0.0702, Acc = 98.88%
+  Epoch 8: Loss = 0.0709, Acc = 98.78%
+  Epoch 9: Loss = 0.0813, Acc = 98.68%
+  Epoch 10: Loss = 0.0462, Acc = 99.06%
+
+Evaluating on all tasks...
+
+Results after task 1:
+  Task 0: 0.00%
+  Task 1: 97.70%
+
+Metrics:
+  Average Accuracy:  48.85%
+  Learning Accuracy: 97.05%
+  Backward Transfer: -96.40%
+  Forgetting:        96.40%
+
+============================================================
+Experience 2: Classes [5, 38, 40, 9, 43, 18, 82, 83, 86, 89]
+============================================================
+  Epoch 1: Loss = 2.8242, Acc = 83.82%
+  Epoch 2: Loss = 1.1703, Acc = 93.68%
+  Epoch 3: Loss = 0.5577, Acc = 95.26%
+  Epoch 4: Loss = 0.2696, Acc = 97.10%
+  Epoch 5: Loss = 0.2050, Acc = 97.48%
+  Epoch 6: Loss = 0.1725, Acc = 97.70%
+  Epoch 7: Loss = 0.1400, Acc = 98.12%
+  Epoch 8: Loss = 0.0971, Acc = 98.44%
+  Epoch 9: Loss = 0.1054, Acc = 98.20%
+  Epoch 10: Loss = 0.0769, Acc = 98.84%
+
+Evaluating on all tasks...
+
+Results after task 2:
+  Task 0: 0.00%
+  Task 1: 11.40%
+  Task 2: 96.80%
+
+Metrics:
+  Average Accuracy:  36.07%
+  Learning Accuracy: 96.97%
+  Backward Transfer: -91.35%
+  Forgetting:        91.35%
+
+============================================================
+Experience 3: Classes [32, 1, 67, 73, 75, 79, 50, 59, 93, 94]
+============================================================
+  Epoch 1: Loss = 3.1732, Acc = 75.48%
+  Epoch 2: Loss = 1.1637, Acc = 86.18%
+  Epoch 3: Loss = 0.6216, Acc = 89.40%
+  Epoch 4: Loss = 0.5314, Acc = 89.96%
+  Epoch 5: Loss = 0.3992, Acc = 91.76%
+  Epoch 6: Loss = 0.5091, Acc = 90.78%
+  Epoch 7: Loss = 0.3756, Acc = 91.88%
+  Epoch 8: Loss = 0.2549, Acc = 93.44%
+  Epoch 9: Loss = 0.2084, Acc = 93.56%
+  Epoch 10: Loss = 0.2098, Acc = 93.90%
+
+Evaluating on all tasks...
+
+Results after task 3:
+  Task 0: 0.00%
+  Task 1: 0.00%
+  Task 2: 22.00%
+  Task 3: 91.40%
+
+Metrics:
+  Average Accuracy:  28.35%
+  Learning Accuracy: 95.58%
+  Backward Transfer: -89.63%
+  Forgetting:        89.63%
+
+============================================================
+Experience 4: Classes [66, 3, 4, 45, 51, 22, 87, 58, 61, 63]
+============================================================
+  Epoch 1: Loss = 3.1339, Acc = 77.08%
+  Epoch 2: Loss = 0.8702, Acc = 89.34%
+  Epoch 3: Loss = 0.4667, Acc = 91.32%
+  Epoch 4: Loss = 0.3189, Acc = 93.06%
+  Epoch 5: Loss = 0.2716, Acc = 93.66%
+  Epoch 6: Loss = 0.2546, Acc = 93.66%
+  Epoch 7: Loss = 0.2106, Acc = 94.58%
+  Epoch 8: Loss = 0.1674, Acc = 95.08%
+  Epoch 9: Loss = 0.1302, Acc = 96.00%
+  Epoch 10: Loss = 0.1235, Acc = 96.12%
+
+Evaluating on all tasks...
+
+Results after task 4:
+  Task 0: 0.00%
+  Task 1: 0.10%
+  Task 2: 8.50%
+  Task 3: 7.20%
+  Task 4: 90.90%
+
+Metrics:
+  Average Accuracy:  21.34%
+  Learning Accuracy: 94.64%
+  Backward Transfer: -91.62%
+  Forgetting:        91.62%
+
+============================================================
+Experience 5: Classes [33, 35, 37, 6, 74, 12, 44, 48, 20, 21]
+============================================================
+  Epoch 1: Loss = 2.1661, Acc = 83.74%
+  Epoch 2: Loss = 0.8005, Acc = 91.56%
+  Epoch 3: Loss = 0.3520, Acc = 93.66%
+  Epoch 4: Loss = 0.2943, Acc = 94.62%
+  Epoch 5: Loss = 0.2052, Acc = 95.66%
+  Epoch 6: Loss = 0.1551, Acc = 96.64%
+  Epoch 7: Loss = 0.1848, Acc = 95.58%
+  Epoch 8: Loss = 0.2053, Acc = 94.96%
+  Epoch 9: Loss = 0.1533, Acc = 96.26%
+  Epoch 10: Loss = 0.1680, Acc = 96.14%
+
+Evaluating on all tasks...
+
+Results after task 5:
+  Task 0: 0.00%
+  Task 1: 0.00%
+  Task 2: 3.70%
+  Task 3: 0.10%
+  Task 4: 11.80%
+  Task 5: 94.60%
+
+Metrics:
+  Average Accuracy:  18.37%
+  Learning Accuracy: 94.63%
+  Backward Transfer: -91.52%
+  Forgetting:        91.52%
+
+============================================================
+Experience 6: Classes [65, 69, 7, 15, 81, 85, 88, 56, 27, 31]
+============================================================
+  Epoch 1: Loss = 1.8326, Acc = 86.04%
+  Epoch 2: Loss = 0.7214, Acc = 94.34%
+  Epoch 3: Loss = 0.4735, Acc = 95.08%
+  Epoch 4: Loss = 0.2854, Acc = 96.32%
+  Epoch 5: Loss = 0.1833, Acc = 96.92%
+  Epoch 6: Loss = 0.1669, Acc = 97.38%
+  Epoch 7: Loss = 0.1500, Acc = 97.44%
+  Epoch 8: Loss = 0.1160, Acc = 98.08%
+  Epoch 9: Loss = 0.1209, Acc = 97.82%
+  Epoch 10: Loss = 0.1065, Acc = 97.74%
+
+Evaluating on all tasks...
+
+Results after task 6:
+  Task 0: 0.00%
+  Task 1: 0.00%
+  Task 2: 0.00%
+  Task 3: 0.00%
+  Task 4: 5.90%
+  Task 5: 17.20%
+  Task 6: 96.70%
+
+Metrics:
+  Average Accuracy:  17.11%
+  Learning Accuracy: 94.93%
+  Backward Transfer: -90.78%
+  Forgetting:        90.78%
+
+============================================================
+Experience 7: Classes [34, 36, 72, 41, 47, 80, 17, 84, 57, 29]
+============================================================
+  Epoch 1: Loss = 2.4169, Acc = 85.20%
+  Epoch 2: Loss = 0.7127, Acc = 94.12%
+  Epoch 3: Loss = 0.3988, Acc = 95.24%
+  Epoch 4: Loss = 0.2915, Acc = 95.92%
+  Epoch 5: Loss = 0.3190, Acc = 95.86%
+  Epoch 6: Loss = 0.1908, Acc = 96.68%
+  Epoch 7: Loss = 0.1420, Acc = 97.04%
+  Epoch 8: Loss = 0.1181, Acc = 97.38%
+  Epoch 9: Loss = 0.1139, Acc = 97.74%
+  Epoch 10: Loss = 0.1061, Acc = 97.76%
+
+Evaluating on all tasks...
+
+Results after task 7:
+  Task 0: 0.00%
+  Task 1: 0.00%
+  Task 2: 0.10%
+  Task 3: 1.00%
+  Task 4: 3.20%
+  Task 5: 0.90%
+  Task 6: 10.50%
+  Task 7: 95.60%
+
+Metrics:
+  Average Accuracy:  13.91%
+  Learning Accuracy: 95.01%
+  Backward Transfer: -92.69%
+  Forgetting:        92.69%
+
+============================================================
+Experience 8: Classes [2, 90, 8, 76, 53, 54, 23, 26, 91, 30]
+============================================================
+  Epoch 1: Loss = 2.2871, Acc = 86.20%
+  Epoch 2: Loss = 0.8799, Acc = 94.12%
+  Epoch 3: Loss = 0.5170, Acc = 95.28%
+  Epoch 4: Loss = 0.2548, Acc = 96.78%
+  Epoch 5: Loss = 0.1919, Acc = 97.12%
+  Epoch 6: Loss = 0.1734, Acc = 97.34%
+  Epoch 7: Loss = 0.2102, Acc = 96.84%
+  Epoch 8: Loss = 0.1003, Acc = 98.22%
+  Epoch 9: Loss = 0.0870, Acc = 98.06%
+  Epoch 10: Loss = 0.0887, Acc = 98.22%
+
+Evaluating on all tasks...
+
+Results after task 8:
+  Task 0: 0.00%
+  Task 1: 0.00%
+  Task 2: 0.00%
+  Task 3: 0.00%
+  Task 4: 0.30%
+  Task 5: 0.20%
+  Task 6: 2.20%
+  Task 7: 14.80%
+  Task 8: 96.80%
+
+Metrics:
+  Average Accuracy:  12.70%
+  Learning Accuracy: 95.21%
+  Backward Transfer: -92.83%
+  Forgetting:        92.83%
+
+============================================================
+Experience 9: Classes [0, 64, 39, 77, 14, 92, 49, 55, 25, 28]
+============================================================
+  Epoch 1: Loss = 2.8022, Acc = 84.12%
+  Epoch 2: Loss = 0.8090, Acc = 93.36%
+  Epoch 3: Loss = 0.3939, Acc = 95.32%
+  Epoch 4: Loss = 0.2689, Acc = 96.20%
+  Epoch 5: Loss = 0.3011, Acc = 95.80%
+  Epoch 6: Loss = 0.2235, Acc = 96.68%
+  Epoch 7: Loss = 0.1812, Acc = 96.82%
+  Epoch 8: Loss = 0.1418, Acc = 97.20%
+  Epoch 9: Loss = 0.1520, Acc = 96.86%
+  Epoch 10: Loss = 0.1770, Acc = 96.54%
+
+Evaluating on all tasks...
+
+Results after task 9:
+  Task 0: 0.00%
+  Task 1: 0.20%
+  Task 2: 0.10%
+  Task 3: 0.00%
+  Task 4: 0.10%
+  Task 5: 0.70%
+  Task 6: 5.10%
+  Task 7: 3.70%
+  Task 8: 12.30%
+  Task 9: 94.00%
+
+Metrics:
+  Average Accuracy:  11.62%
+  Learning Accuracy: 95.09%
+  Backward Transfer: -92.74%
+  Forgetting:        92.74%
+
+========================================
+Finished at: Mon Dec 22 07:47:40 PM CET 2025
+Exit code: 0
+========================================
