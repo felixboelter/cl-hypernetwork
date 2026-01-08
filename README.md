@@ -244,4 +244,4 @@ MIT License
 ## Acknowledgments
 
 - Built with [PyTorch](https://pytorch.org/), [timm](https://github.com/huggingface/pytorch-image-models), and [Avalanche](https://avalanche.continualai.org/)
-- Inspired by recent advances in continual learning and parameter-efficient fine-tuning
+- The project on which this report is based was funded by the Federal Ministry of Research, Technology and Space under the funding code “KI-Servicezentrum Berlin-Brandenburg” 16IS22092. Responsibility for the content of this publication remains with the author.
