@@ -21,7 +21,7 @@ class BaselineConfig:
     backbone_name: str = "vit_base_patch16_224"
     num_classes: int = 100
     n_experiences: int = 10
-    epochs_per_task: int = 3
+    epochs_per_task: int = 1  # 1 * 10 = 10 total epochs (matches baseline_vit_all)
     batch_size: int = 64
     num_workers: int = 4
     lr: float = 1e-4

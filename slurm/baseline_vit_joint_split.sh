@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:h100:1
 #SBATCH --mem=64G
-#SBATCH --time=00:30:00
+#SBATCH --time=02:00:00
 #SBATCH --output=slurm/logs/baseline_vit_joint_%j.out
 #SBATCH --error=slurm/logs/baseline_vit_joint_%j.err
 
